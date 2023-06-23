@@ -1,14 +1,14 @@
-import FallingStars from "./components/falling-stars";
+import StarsParticles from "./components/Stars-bg";
 
 function App() {
     return (
-      <main>
-        <FallingStars>
-          <h1>HOLA AMIGOS DE YOUTUBE</h1>
-        </FallingStars>
-      </main>
+      <body className="bg-black h-screen	">
+        <StarsParticles />
+        <h1 className="text-4xl text-gray-50">HOLA AMIGOS DE YOUTUBE</h1>
+
+      </body>
     )
   
 }
 
-export default App
+export default App;
