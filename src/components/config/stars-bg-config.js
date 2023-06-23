@@ -1,6 +1,6 @@
 const starsBgConfig = {
     background: {
-        "z-index": -10
+        "z-index": -10,
     },
     particles: {
         number: {
@@ -67,7 +67,7 @@ const starsBgConfig = {
                 rotateX: 600,
                 rotateY: 600
             }
-        }
+        },
     },
     interactivity: {
         detect_on: "window",

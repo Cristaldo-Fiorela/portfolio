@@ -1,12 +1,14 @@
+
+import Header from "./components/Header";
 import StarsParticles from "./components/Stars-bg";
 
 function App() {
     return (
-      <body className="bg-black h-screen	">
+      <body className="h-screen bg-neutral-900	">
+        <Header />
         <StarsParticles />
       </body>
     )
-  
 }
 
 export default App;
