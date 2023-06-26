@@ -5,7 +5,7 @@ import FallingStars from "./components/Falling-star-bg";
 
 function App() {
     return (
-      <body className="h-screen bg-neutral-700">
+      <body className="h-screen">
         <Header />
         {/* <StarsParticles /> */}
         <FallingStars />
