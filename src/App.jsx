@@ -2,14 +2,18 @@
 import Header from "./components/Header";
 import StarsParticles from "./components/Stars-bg";
 import FallingStars from "./components/Falling-star-bg";
+import Welcome from "./components/Welcome";
+import AboutMe from "./components/About-me";
 
 function App() {
     return (
-      <body className="h-screen">
+      <>
         <Header />
         {/* <StarsParticles /> */}
+        <Welcome />
         <FallingStars />
-      </body>
+        <AboutMe />
+      </>
     )
 }
 
