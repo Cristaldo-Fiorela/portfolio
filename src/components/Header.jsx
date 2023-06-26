@@ -1,7 +1,7 @@
 const Header = () => {
     return (
-        <div className="flex justify-around w-screen bg-black">
-            <h2></h2>
+        <div className="flex justify-around w-screen h-20 bg-black">
+            <h2 className="text-indigo-900 text-6xl">HOLA</h2>
 
             <nav>
                 <li><a href="">About Me</a></li>
