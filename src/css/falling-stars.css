@@ -1,14 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    overflow: hidden;
-}
-
-div {
+#bg-stars {
     position: absolute;
     top: 0;
     left: 0;
@@ -16,7 +7,7 @@ div {
     height: 100vh;
 }
 
-span {
+#bg-stars .star {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,7 +23,7 @@ span {
     z-index: auto;
 }
 
-span::before {
+#bg-stars .star::before {
     content: '';
     position: absolute;
     top: 50%;
@@ -42,69 +33,69 @@ span::before {
     background: linear-gradient(90deg, white, transparent);
 }
 
-span:nth-child(1) {
+#bg-stars .star:nth-child(1) {
     top: 0;
     right: 0;
     animation-delay: 0;
     animation-duration: 5s;
 }
-span:nth-child(2) {
+#bg-stars .star:nth-child(2) {
     top: 0;
     right: 80px;
     left: initial;
     animation-delay: 0.2s;
     animation-duration: 7s;
 }
-span:nth-child(3) {
+#bg-stars .star:nth-child(3) {
     top: 80px;
     right: 0;
     left: initial;
     animation-delay: 0.4s;
     animation-duration: 3s;
 }
-span:nth-child(4) {
+#bg-stars .star:nth-child(4) {
     top: 0px;
     right: 180px;
     left: initial;
     animation-delay: 0.6s;
     animation-duration: 5.5s;
 }
-span:nth-child(5) {
+#bg-stars .star:nth-child(5) {
     top: 0;
     right: 400px;
     left: initial;
     animation-delay: 0.8s;
     animation-duration: 3.5s;
 }
-span:nth-child(6) {
+#bg-stars .star:nth-child(6) {
     top: 0px;
     right: 600px;
     left: initial;
     animation-delay: 1s;
     animation-duration: 7s;
 }
-span:nth-child(7) {
+#bg-stars .star:nth-child(7) {
     top: 300px;
     right: 0px;
     left: initial;
     animation-delay: 1.2s;
     animation-duration: 5.75s;
 }
-span:nth-child(8) {
+#bg-stars .star:nth-child(8) {
     top: 0;
     right: 700px;
     left: initial;
     animation-delay: 1.4s;
     animation-duration: 5.25s;
 }
-span:nth-child(9) {
+#bg-stars .star:nth-child(9) {
     top: 0;
     right: 1000px;
     left: initial;
     animation-delay: 0.75s;
     animation-duration: 5.25s;
 }
-span:nth-child(10) {
+#bg-stars .star:nth-child(10) {
     top: 0;
     right: 450px;
     left: initial;
