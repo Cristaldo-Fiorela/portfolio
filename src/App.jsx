@@ -16,12 +16,14 @@ function App() {
     return (
       <>
         <Header />
+          <div className="flex flex-col gap-10">
           <Welcome />
           <AboutMe />
           <Skills />
           <LearningNow />
           <Projects />
           <Certification />
+          </div>
         <Footer />
         {/* <FallingStars /> */}
       </>
