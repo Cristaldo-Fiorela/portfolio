@@ -1,7 +1,7 @@
 const AboutMe = () => {
     return (
-        <>
-            <h2 className="bg-sky-500">About me</h2>
+        <div className="bg-sky-500">
+            <h2>About me</h2>
 
             <div>
                 <img src="https://i.imgur.com/F4zRK5X.png" alt="foto perfil" />
@@ -21,7 +21,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
