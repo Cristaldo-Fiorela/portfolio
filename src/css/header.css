@@ -1,0 +1,33 @@
+nav .nav-item-animation {
+    position: relative;
+}
+
+nav .nav-item-animation::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(90deg, rgba(255,64,102,1) 0%, rgba(255,241,106,1) 100%);
+    background: linear-gradient(90deg, #FFF16A, #FF4066, #EE49FD, #6157ff);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+nav .nav-item-animation:hover::after {
+    width: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
