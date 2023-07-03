@@ -1,9 +1,13 @@
+import '../css/welcome.css'
+
 const Welcome = () => {
 return (
     <>
-        <div className='bg-amber-700 h-screen flex flex-col justify-center items-center '>
-            <h1>Hola Soy Fiorela Cristaldo</h1>
-            <h2>Desarrollador Full Stack MERN Junior</h2>
+        <div className='h-screen flex flex-col justify-center items-center '>
+            <h1>    Hi I'm
+                <span className="welcome-name"> Fiorela Cristaldo</span> 
+            </h1>
+            <h2>FrontEnd Developer Junior</h2>
             <button className="uppercase ">Contactame</button>
         </div>
     </>
