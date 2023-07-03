@@ -1,8 +1,8 @@
-nav .nav-item-animation {
+nav li.nav-item-animation {
     position: relative;
 }
 
-nav .nav-item-animation::after {
+nav li.nav-item-animation::after {
     content: "";
     position: absolute;
     background: linear-gradient(90deg, rgba(255,64,102,1) 0%, rgba(255,241,106,1) 100%);
@@ -16,7 +16,7 @@ nav .nav-item-animation::after {
     transition: 0.3s;
 }
 
-nav .nav-item-animation:hover::after {
+nav li.nav-item-animation:hover::after {
     width: 100%;
 }
 

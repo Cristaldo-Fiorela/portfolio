@@ -1,0 +1,64 @@
+
+/* CUSTOM VARIABLES */
+:root {
+    --lightest-gradient-color: #FFF16A;
+    --medium-light-gradient-color: #FF4066;
+    --medium-dark-gradient-color: #EE49FD;
+    --darkest-gradient-color: #6157ff;
+}
+
+/* HEADER */
+nav li.nav-item-animation {
+    position: relative;
+}
+
+nav li.nav-item-animation::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(90deg, 
+        var(--lightest-gradient-color), 
+        var(--medium-light-gradient-color), 
+        var(--medium-dark-gradient-color), 
+        var(--darkest-gradient-color));
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+nav li.nav-item-animation:hover::after {
+    width: 100%;
+}
+
+/* WELCOME */
+
+h1 span.welcome-name {
+    font-size: 100px;
+    font-weight: 800;
+    background-size: 300% 300%;
+    background: linear-gradient(130deg,
+    var(--lightest-gradient-color), 
+    var(--medium-light-gradient-color), 
+    var(--medium-dark-gradient-color), 
+    var(--darkest-gradient-color));
+    background-clip: text;
+    color: transparent;
+    animation: gradient 6s ease infinite;
+}
+
+
+/* KEYFRAMES */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

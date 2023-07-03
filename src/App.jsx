@@ -10,7 +10,8 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import ContactMe from "./components/Contact-me";
 
-
+// CSS
+import './css/style.css'
 import FallingStars from "./components/Falling-star-bg";
 
 function App() {
