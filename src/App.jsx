@@ -13,6 +13,7 @@ import ContactMe from "./components/Contact-me";
 // CSS
 import './css/style.css'
 import FallingStars from "./components/Falling-star-bg";
+import StarsParticles from "./components/Stars-bg";
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
           </div>
         <Footer />
         {/* <FallingStars /> */}
+        {/* <StarsParticles /> */}
       </>
     )
 }
