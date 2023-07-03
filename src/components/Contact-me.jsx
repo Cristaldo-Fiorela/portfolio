@@ -1,7 +1,7 @@
 
 const ContactMe = () => {
     return (
-        <div className="bg-amber-600">
+        <div className="bg-amber-600" id="contact-section">
             <form>
                 <div>
                     <label htmlFor="">Nombre</label>

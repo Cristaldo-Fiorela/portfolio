@@ -1,7 +1,7 @@
 
 const Skills = () => {
     return (
-        <section className="bg-green-900">
+        <section className="bg-green-900" id="skills-section">
             <h2>Tecnologias</h2>
             <div>
                 <p>HTML</p>

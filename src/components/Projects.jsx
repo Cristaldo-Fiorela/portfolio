@@ -1,7 +1,7 @@
 
 const Projects = () => {
     return (
-        <div className="bg-gray-900">
+        <div className="bg-gray-900" id="projects-section">
             <div>
                 <h2>Proyectos</h2>
                 <div>
