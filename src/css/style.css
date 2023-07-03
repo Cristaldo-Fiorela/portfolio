@@ -50,14 +50,14 @@ h1 span.welcome-name {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 100px;
     font-weight: 800;
-    background-size: 300% 300%;
-    background: linear-gradient(130deg,
+    background: linear-gradient(90deg,
     var(--lightest-gradient-color), 
     var(--medium-light-gradient-color), 
     var(--medium-dark-gradient-color), 
     var(--darkest-gradient-color));
     background-clip: text;
     color: transparent;
+    background-size: 300% 300%;
     animation: gradient 6s ease infinite;
 }
 
