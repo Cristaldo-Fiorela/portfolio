@@ -1,3 +1,14 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
+
+/* 
+font-family: 'Cabin', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; 
+*/
+
+* {
+    font-family: 'Cabin', sans-serif;
+}
 
 /* CUSTOM VARIABLES */
 :root {
@@ -36,6 +47,7 @@ nav li.nav-item-animation:hover::after {
 /* WELCOME */
 
 h1 span.welcome-name {
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 100px;
     font-weight: 800;
     background-size: 300% 300%;
