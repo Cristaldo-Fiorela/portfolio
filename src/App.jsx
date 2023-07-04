@@ -29,7 +29,7 @@ function App() {
           <ContactMe />
           </div>
         <Footer />
-        {/* <FallingStars /> */}
+        <FallingStars />
         {/* <StarsParticles /> */}
       </>
     )
