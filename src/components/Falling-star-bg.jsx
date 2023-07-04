@@ -3,7 +3,7 @@ import '../css/falling-stars.css';
 function FallingStars() {
     return (
         <>
-            <div id='bg-stars' className='-z-10 bg-neutral-900'>
+            <div id='bg-stars' className='-z-10'>
                 <span className='star'></span>
                 <span className='star'></span>
                 <span className='star'></span>
