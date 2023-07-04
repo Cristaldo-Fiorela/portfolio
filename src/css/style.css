@@ -61,6 +61,12 @@ div h1.welcome-name {
     line-height: 1;
 }
 
+div h2.trabajo {
+    background-color: white;
+    color: black;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
 
 /* KEYFRAMES */
 @keyframes gradient {
