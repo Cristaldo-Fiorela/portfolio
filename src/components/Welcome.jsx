@@ -1,6 +1,6 @@
 // import '../css/welcome.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane, faFileArrowDown, faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Welcome = () => {
 return (
@@ -22,11 +22,16 @@ return (
                             </h2>
                         </div>
             </div>
-            <div>
+            <div className='flex w-1/3 items-center justify-evenly'>
                 <button><a className="uppercase px-4 py-2 rounded-md border-double font-bold bg-coral text-2xl" href="#contact-section">
                     Contact Me &nbsp;
                     <FontAwesomeIcon icon={faPaperPlane} />
-                </a></button>
+                </a>
+                </button>
+                <button><a className="uppercase px-4 py-2 rounded-md border-double font-bold bg-coral text-2xl" href="#contact-section">
+                    Download CV &nbsp;
+                    <FontAwesomeIcon icon={faFileArrowDown} />                </a>
+                </button>
             </div>
             {/* <div className="flex flex-col">
                     <h2 className="text-4xl px-5 rounded-lg trabajo uppercase font-extrabold">
