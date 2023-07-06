@@ -61,12 +61,14 @@ div h1.welcome-name {
     line-height: 1;
 }
 
-div h2.trabajo {
-    background-color: white;
-    color: black;
-    letter-spacing: 10px;
-    font-weight: bold;
-}
+/* div h2.trabajo {   
+    color: rgb(0, 0, 0);
+    mix-blend-mode: screen;
+    font-family: 'Roboto Condensed', sans-serif; 
+    animation: gradient 6s ease infinite;
+    background-size: 200% 200%;
+} */
+
 
 /* KEYFRAMES */
 @keyframes gradient {
