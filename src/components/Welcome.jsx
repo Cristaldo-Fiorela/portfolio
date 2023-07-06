@@ -1,4 +1,6 @@
 // import '../css/welcome.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 const Welcome = () => {
 return (
@@ -21,7 +23,10 @@ return (
                         </div>
             </div>
             <div>
-                <button><a className="uppercas px-4 py-2 rounded-md text-black border-double font-bold" href="#contact-section">Contact Me</a></button>
+                <button><a className="uppercase px-4 py-2 rounded-md border-double font-bold bg-coral text-2xl" href="#contact-section">
+                    Contact Me &nbsp;
+                    <FontAwesomeIcon icon={faPaperPlane} />
+                </a></button>
             </div>
             {/* <div className="flex flex-col">
                     <h2 className="text-4xl px-5 rounded-lg trabajo uppercase font-extrabold">

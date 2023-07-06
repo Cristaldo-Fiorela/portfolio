@@ -50,14 +50,14 @@ div h1.welcome-name {
     font-family: '', sans-serif;
     font-weight: 800;
     background: linear-gradient(90deg,
-    var(--lightest-gradient-color), 
-    var(--medium-light-gradient-color), 
-    var(--medium-dark-gradient-color), 
-    var(--darkest-gradient-color));
+        var(--lightest-gradient-color), 
+        var(--medium-light-gradient-color), 
+        var(--medium-dark-gradient-color), 
+        var(--darkest-gradient-color));
     background-clip: text;
     color: transparent;
     background-size: 200% 200%;
-    animation: gradient 6s ease infinite;
+    animation: gradient 3s ease infinite;
     line-height: 1;
 }
 
@@ -69,7 +69,10 @@ div h1.welcome-name {
     background-size: 200% 200%;
 } */
 
-
+.bg-coral {
+    background-color: #FF7367;
+    background-color: #b73e48;
+}
 /* KEYFRAMES */
 @keyframes gradient {
 	0% {
