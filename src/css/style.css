@@ -52,8 +52,7 @@ div h1.welcome-name {
     background: linear-gradient(90deg,
         var(--lightest-gradient-color), 
         var(--medium-light-gradient-color), 
-        var(--medium-dark-gradient-color), 
-        var(--darkest-gradient-color));
+        var(--medium-dark-gradient-color));
     background-clip: text;
     color: transparent;
     background-size: 200% 200%;
@@ -72,6 +71,7 @@ div h1.welcome-name {
 .bg-coral {
     background-color: #FF7367;
     background-color: #b73e48;
+    background-color: #8c4b8a;
 }
 /* KEYFRAMES */
 @keyframes gradient {
