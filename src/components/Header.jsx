@@ -1,13 +1,14 @@
 // import '../css/header.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { faStar, faLanguage } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
         <>
-        <div className='bg-neutral-900 text-gray-400 w-full flex justify-end px-5'>
-            <div className='flex gap-1'>
+        <div className='bg-neutral-900 h-8 text-gray-400 w-full flex justify-end px-5'>
+            <div className='flex gap-1 justify-center items-center'>
+                <FontAwesomeIcon icon={faLanguage} className='fa-xl'/>
                 <button className=' hover:text-gray-200'>EN</button>
                 <p>/</p>
                 <button className=' hover:text-gray-200'>ES</button>
