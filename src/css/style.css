@@ -51,12 +51,11 @@ div h1.welcome-name {
     font-weight: 800;
     background: linear-gradient(90deg,
         var(--lightest-gradient-color), 
-        var(--medium-light-gradient-color), 
-        var(--medium-dark-gradient-color));
+        var(--medium-light-gradient-color));
     background-clip: text;
     color: transparent;
     background-size: 200% 200%;
-    animation: gradient 3s ease infinite;
+    animation: gradient 4s ease infinite;
     line-height: 1;
 }
 
@@ -69,9 +68,10 @@ div h1.welcome-name {
 } */
 
 .bg-coral {
-    background-color: #FF7367;
     background-color: #b73e48;
     background-color: #8c4b8a;
+    background-color: #FF7367;
+    background-color: #c14b41;
 }
 /* KEYFRAMES */
 @keyframes gradient {
