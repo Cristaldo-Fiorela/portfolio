@@ -70,8 +70,8 @@ div h1.welcome-name {
 .bg-coral {
     background-color: #b73e48;
     background-color: #8c4b8a;
-    background-color: #FF7367;
     background-color: #c14b41;
+    background-color: #FF7367;
 }
 /* KEYFRAMES */
 @keyframes gradient {
@@ -84,4 +84,9 @@ div h1.welcome-name {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+#aboutme {
+    height: 200px;
+    width: 200px;
 }

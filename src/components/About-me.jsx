@@ -1,10 +1,10 @@
 const AboutMe = () => {
     return (
-        <div className="bg-sky-500" id="about-section">
+        <div className="bg-sky-500 flex flex-col justify-center items-center" id="about-section">
             <h2>About me</h2>
 
             <div>
-                <img src="https://i.imgur.com/F4zRK5X.png" alt="foto perfil" />
+                <img src="https://i.imgur.com/F4zRK5X.png" alt="foto perfil"  id="aboutme"/>
                 <div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non efficitur sapien, quis viverra dolor. In quis ex porttitor, efficitur nisl quis, consequat nunc. Vestibulum mi arcu, ullamcorper at cursus vel, rutrum vel justo. Aliquam dictum diam nec risus feugiat, et posuere velit malesuada. Morbi cursus, tellus eget rhoncus malesuada, odio risus rutrum libero, id efficitur justo tortor non ligula. Suspendisse non dapibus ligula. In lobortis ex vel placerat sagittis. Phasellus nec vulputate sem, id consequat quam. Suspendisse nec augue vestibulum, mollis quam sit amet, mollis libero.
