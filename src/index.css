@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --color-pink: #F1A0FF;
+  --color-dark-pink: #cc41e4;
+  --color-purple: #717EFF;
+  --color-dark-purple: #5060ff;
+  --color-yellow: #F9DB69;
+
+  --font-family-body: "Space Grotesk", sans-serif;
+  --font-family-heading: "Dela Gothic One", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-900;
+    font-family: var(--font-family-body);
+  }
+}

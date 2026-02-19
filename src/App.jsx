@@ -43,7 +43,7 @@ function App() {
   }, []);
 
   return (
-    <div className='bg-amber-700'>
+    <div className='max-w-5xl mx-auto px-4'>
       <Header 
         navbarRef={navbarRef}
         whiteLogo={whiteLogo}
