@@ -1,36 +1,23 @@
-// import '../css/header.css';
+import { cvSpanish, logo, logoWhite } from '../db/links.js';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faLanguage } from '@fortawesome/free-solid-svg-icons';
+const Header = ({  navbarRef, whiteLogo }) => {
+  return (
+    <header ref={navbarRef}>
+      <div className="logo">
+        {whiteLogo ?
+          <img src={logoWhite} alt="hola" height={55} />
+          :
+          <img src={logo} alt="hola" height={55} />
+        }
+      </div>
+      <nav>
+        <a href="#about">Sobre Mi</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href={cvSpanish} id='btn-cv' target='_blank' rel='noreferrer'>CV</a>
+      </nav>
+    </header>
+  )
+}
 
-const Header = () => {
-    return (
-        <>
-        <div className='bg-neutral-900 h-8 text-gray-400 w-full flex justify-end px-5'>
-            <div className='flex gap-1 justify-center items-center'>
-                <FontAwesomeIcon icon={faLanguage} className='fa-xl'/>
-                <button className=' hover:text-gray-200'>EN</button>
-                <p>/</p>
-                <button className=' hover:text-gray-200'>ES</button>
-            </div>
-        </div>
-        <div className="flex justify-around h-16 bg-neutral-900">
-            <div className="text-5xl text-gray-200">  
-                <span>&#123; </span>
-                <FontAwesomeIcon icon={faStar} flip size="2xs" style={{"--fa-animation-duration": "3s"}} />                
-                <span> &#125;</span>
-            </div>
-
-            <nav className="flex items-center justify-around list-none gap-3">
-                <li className="text-gray-400 hover:text-gray-200 uppercase font-bold px-2.5 nav-item-animation"><a href="#about-section">About Me</a></li>
-                <li className="text-gray-400 hover:text-gray-200 uppercase font-bold px-2.5 nav-item-animation"><a href="#skills-section">Skills</a></li>
-                <li className="text-gray-400 hover:text-gray-200 uppercase font-bold px-2.5 nav-item-animation"><a href="#projects-section">Projects</a></li>
-                <li className="text-gray-400 hover:text-gray-200 uppercase font-bold px-2.5 nav-item-animation"><a href="#contact-section">Contact Me</a></li>
-            </nav>
-        </div>
-        </>
-
-    );
-};
-
-export default Header;
+export default Header

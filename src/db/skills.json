@@ -1,0 +1,18 @@
+{
+  "front": [
+    {"id": 1, "name": "HTML", "icon": "skill-icons:html" },
+    {"id": 2, "name": "CSS", "icon": "skill-icons:css" },
+    {"id": 3, "name": "JavaScript", "icon": "skill-icons:javascript" },
+    {"id": 4, "name": "TypeScript", "icon": "skill-icons:typescript" },
+    {"id": 5, "name": "React.js", "icon": "logos:react" },
+    {"id": 6, "name": "React Native", "icon": "logos:react" }
+  ],
+  "back": [
+    {"id": 1, "name": "Node.js", "icon": "devicon:nodejs" },
+    {"id": 2, "name": "MongoDB", "icon": "vscode-icons:file-type-mongo" }
+  ],
+  "version": [
+    {"id": 1, "name": "Git", "icon": "devicon:git" },
+    {"id": 2, "name": "GitHub", "icon": "fluent-mdl2:git-hub-logo" }
+  ]
+}

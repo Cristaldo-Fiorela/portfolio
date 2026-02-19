@@ -1,33 +1,35 @@
+import { Icon } from '@iconify/react';
+
+import DB from '../db/db.json';
 
 const Projects = () => {
-    return (
-        <div className="bg-gray-900" id="projects-section">
-            <div>
-                <h2>Proyectos</h2>
-                <div>
-                    <h3>Titulo</h3>
-                    <img src="" alt="" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente illum odio ipsa, cumque itaque et culpa distinctio, libero vitae adipisci numquam ullam veniam nostrum eius ipsam vero voluptatum officia.
-                    </p>
-                    <div>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>REACT</p>
-                    </div>
-                </div>
+  return (
+    <section id="projects">
+      <h2 className="section-title">
+        Proyectos {""}
+        <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" />
+      </h2>
+      <div className='projects-container'>
+        { DB.map(project => (
+          <div 
+            className="project-card"
+            key={project.id}
+            style={{backgroundImage: `url('${project.image}')`}}
+          >
+            <div className='card-body'>
+              <div className="tech-tags">
+                {project.tech.map( (tech, i) => (
+                  <p key={i}>#{tech}</p>
+                ))}
+              </div>
+              <h4>{project.name}</h4>
             </div>
-
-            <div>
-                <h2>Otros proyectos... BUSCAR INFO DE LA API DE GITHUB</h2>
-                <div>
-                    <p>Titulo</p>
-                    <p>descripcion</p>
-                    <p>link a repo</p>
-                </div>
-            </div>
-
-        </div>
-    )
+          </div>
+          ))
+        }
+      </div>
+    </section>
+  )
 }
 
 export default Projects
