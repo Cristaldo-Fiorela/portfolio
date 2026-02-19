@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Icon } from '@iconify/react';
-import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 const Footer = () => {
 
@@ -23,7 +22,7 @@ const Footer = () => {
         </div>
         <div id='mail-box'>
           <a href="mailto:cristaldofiorela@gmail.com">cristaldofiorela@gmail.com</a>
-          <CopyToClipboard 
+          {/* <CopyToClipboard 
             text={'cristaldofiorela@gmail.com'}
             onCopy={copied}
           >
@@ -34,7 +33,7 @@ const Footer = () => {
                 <Icon className='icon-copy' icon="lucide:copy-plus" width="2rem" height="2rem" />
               }
             </button>
-          </CopyToClipboard>
+          </CopyToClipboard> */}
         </div>
       </section>
 

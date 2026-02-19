@@ -43,7 +43,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div id='test'>
       <Header 
         navbarRef={navbarRef}
         whiteLogo={whiteLogo}
@@ -55,7 +55,7 @@ function App() {
         <Projects/>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 
