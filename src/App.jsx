@@ -43,7 +43,7 @@ function App() {
   }, []);
 
   return (
-    <div id='test'>
+    <div className='bg-amber-700'>
       <Header 
         navbarRef={navbarRef}
         whiteLogo={whiteLogo}
