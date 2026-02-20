@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { cvSpanish, logoWhite } from '../db/links.js';
 import FullScreenMenu from './FullScreenMenu.jsx';
 
-const Header = ({  navbarRef, whiteLogo }) => {
+const Header = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header ref={navbarRef} className="bg-neutral-800 text-neutral-100 my-3 border-2 border-neutral-700 p-2 rounded-4xl flex justify-between md:grid md:grid-cols-5">
+    <header className="bg-neutral-800 text-neutral-100 my-3 border-2 border-neutral-700 p-2 rounded-4xl flex justify-between md:grid md:grid-cols-5">
       <img src={logoWhite} alt="hola"  className='h-8 md:h-12 ml-5 col-span-1'/>
 
       <button 
