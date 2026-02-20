@@ -1,4 +1,4 @@
-# Portfolio 2024
+# Portfolio 2026
 
 ¡Bienvenido/a a mi portfolio! Soy Fiorela, desarrolladora web apasionada por el desarrollo frontend. Este portfolio es un espacio donde comparto algunos de mis proyectos y experiencias en el campo de programación.
 
@@ -9,6 +9,7 @@ En este proyecto, utilizo una variedad de tecnologías y herramientas, incluyend
 - CSS
 - JavaScript
 - React.js
+- Tailwind
 
 ## Contacto
 
