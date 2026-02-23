@@ -19,3 +19,10 @@
     background-size: 24px 24px;
   }
 }
+
+.boxGlow {
+  box-shadow: 
+    0 10px 25px color-mix(in srgb, var(--color-purple) 30%, transparent), 
+    0 10px 25px color-mix(in srgb, var(--color-pink) 30%, transparent), 
+    0 0 30px color-mix(in srgb, var(--color-yellow) 30%, transparent);
+}
