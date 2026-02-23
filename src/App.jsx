@@ -8,7 +8,7 @@ import Welcome from './components/Welcome';
 function App() {
 
   return (
-    <div className='max-w-5xl mx-auto px-4'>
+    <div className='max-w-5xl mx-auto px-4 flex flex-col gap-4'>
       <Header />
       <Welcome />
       <main id='main-container'>
