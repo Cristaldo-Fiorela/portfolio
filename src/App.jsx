@@ -11,11 +11,9 @@ function App() {
     <div className='max-w-5xl mx-auto px-4 flex flex-col gap-4'>
       <Header />
       <Welcome />
-      <main id='main-container'>
-        <About />
-        <Skills />
-        <Projects/>
-      </main>
+      <About />
+      <Skills />
+      <Projects/>
       <Footer />
     </div>
   )
