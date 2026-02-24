@@ -5,14 +5,20 @@
     {"id": 3, "name": "JavaScript", "icon": "skill-icons:javascript" },
     {"id": 4, "name": "TypeScript", "icon": "skill-icons:typescript" },
     {"id": 5, "name": "React.js", "icon": "logos:react" },
-    {"id": 6, "name": "React Native", "icon": "logos:react" }
+    {"id": 6, "name": "Tailwind", "icon": "devicon:tailwindcss" },
+    {"id": 7, "name": "MUI", "icon": "logos:material-ui" }
   ],
   "back": [
-    {"id": 1, "name": "Node.js", "icon": "devicon:nodejs" },
-    {"id": 2, "name": "MongoDB", "icon": "vscode-icons:file-type-mongo" }
+    {"id": 1, "name": "SQL", "icon": "logos:mysql" },
+    {"id": 2, "name": "NoSQL", "icon": "vscode-icons:file-type-sql" },
+    {"id": 3, "name": "Java", "icon": "devicon:java" },
+    {"id": 4, "name": "Node.js", "icon": "devicon:nodejs" },
+    {"id": 5, "name": "MongoDB", "icon": "vscode-icons:file-type-mongo" }
   ],
-  "version": [
+  "tools": [
     {"id": 1, "name": "Git", "icon": "devicon:git" },
-    {"id": 2, "name": "GitHub", "icon": "fluent-mdl2:git-hub-logo" }
+    {"id": 2, "name": "GitHub", "icon": "fluent-mdl2:git-hub-logo" },
+    {"id": 3, "name": "Patrones de diseño", "icon": "eos-icons:patterns" },
+    {"id": 4, "name": "Arquitectura", "icon": "carbon:ibm-global-storage-architecture" }
   ]
 }
