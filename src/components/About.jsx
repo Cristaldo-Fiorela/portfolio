@@ -1,7 +1,5 @@
 import { Icon } from '@iconify/react';
 
-import portrait from '../assets/image/portrait.jpeg';
-
 const About = () => {
   return (
     <section className='my-10 md:w-2/3 self-center flex flex-col items-center gap-3'>
