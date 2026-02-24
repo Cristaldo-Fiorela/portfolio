@@ -1,6 +1,7 @@
 import { Icon } from '@iconify/react';
 
 import DB from '../db/db.json';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (
@@ -10,7 +11,8 @@ const Projects = () => {
         <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" />
       </h2>
       <div className='projects-container'>
-        { DB.map(project => (
+        <ProjectCard />
+        {/* { DB.map(project => (
           <div 
             className="project-card"
             key={project.id}
@@ -26,7 +28,7 @@ const Projects = () => {
             </div>
           </div>
           ))
-        }
+        } */}
       </div>
     </section>
   )

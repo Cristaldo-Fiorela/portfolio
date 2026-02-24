@@ -3,18 +3,24 @@
     "image": "/images/project-mockup-mytinerary.png",
     "name": "My Tinerary",
     "tech": ["react", "javascript", "blog"],
+    "github": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores sapiente neque ad eveniet eius blanditiis, modi vero optio quam in molestiae alias quod beatae",
     "id": 1
   },
   {
     "image": "/images/project-mockup-gea.png",
     "name": "Gea Store",
     "tech": ["react", "javascript", "ecommerce"],
+    "github": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores sapiente neque ad eveniet eius blanditiis, modi vero optio quam in molestiae alias quod beatae",
     "id": 2
   },
   {
     "image": "/images/project-mockup-felino.png",
     "name": "Felino Warriors",
     "tech": ["react", "tailwindcss", "blog"],
+    "github": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores sapiente neque ad eveniet eius blanditiis, modi vero optio quam in molestiae alias quod beatae",
     "id": 3
   }
 ]

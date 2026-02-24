@@ -1,17 +1,18 @@
 import { Icon } from '@iconify/react';
 import portrait from '../assets/image/portrait.jpeg';
+import Pill from './Pill';
 
 const Welcome = () => {
   return (
     <div className='md:grid md:grid-cols-4 flex flex-col gap-5 items-center px-4'>
       <section id='welcome' className='flex flex-col justify-center items-center md:items-start gap-1.5 md:gap-4 md:col-span-2'>
-      <div className='bg-yellow/20 text-yellow border-2 rounded-4xl animate-bounce'>
-        <h2 className='flex items-center gap-2 p-1 px-1.5 md:text-xl'>
+      <Pill className="animate-bounce" bgColor="bg-yellow/20" textColor="text-yellow">
+        <h2 className='flex items-center gap-2 md:text-xl'>
           Hola
             <Icon icon="mdi:hand-wave" width="1rem" height="1rem" />
           soy
         </h2>
-      </div>
+      </Pill>
 
       <h1 className='font-family-heading text-2xl md:text-6xl'>Fiorela Cristaldo</h1>
       <div className='subtitle'>
