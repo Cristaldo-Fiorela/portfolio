@@ -2,6 +2,13 @@ import { Icon } from "@iconify/react"
 import { cvSpanish } from "../db/links"
 
 const FullScreenMenu = ( { setMenuOpen }) => {
+  const handleNavClick = (href) => {
+    setMenuOpen(false)
+    setTimeout(() => {
+      document.querySelector(href).scrollIntoView({ behavior: 'smooth' })
+    }, 300)
+  }
+  
   return (
       <div className="fixed inset-0 bg-neutral-900 z-50 flex flex-col items-center justify-center md:hidden">
         
@@ -14,9 +21,9 @@ const FullScreenMenu = ( { setMenuOpen }) => {
 
         {/* Links */}
         <nav className="flex flex-col items-center gap-10 text-2xl font-semibold text-neutral-100">
-          <a href="#about"   onClick={() => setMenuOpen(false)}>Sobre Mi</a>
-          <a href="#skills"  onClick={() => setMenuOpen(false)}>Habilidades</a>
-          <a href="#projects" onClick={() => setMenuOpen(false)}>Proyectos</a>
+          <a href="#about"   onClick={() => handleNavClick('#about')}>Sobre Mi</a>
+          <a href="#skills"  onClick={() => handleNavClick('#skills')}>Habilidades</a>
+          <a href="#projects" onClick={() => handleNavClick('#projects')}>Proyectos</a>
           <a 
             href={cvSpanish} target='_blank' rel='noreferrer' 
             onClick={() => setMenuOpen(false)}

@@ -2,7 +2,7 @@ import { Icon } from '@iconify/react';
 
 const About = () => {
   return (
-    <section className='my-10 md:w-2/3 self-center flex flex-col items-center gap-5'>
+    <section id='about' className='my-10 md:w-2/3 self-center flex flex-col items-center gap-5'>
       <div className='font-family-heading flex gap-2 text-2xl items-center justify-center'>
       <h2>
         Sobre Mi</h2>
