@@ -1,39 +1,24 @@
-import { useState } from 'react';
 import { Icon } from '@iconify/react';
 
 const Footer = () => {
 
-  const [copy, setCopy] = useState(false);
-
-  const copied = () => {
-    setCopy(true);
-
-    setTimeout(() => {
-      setCopy(false);
-    }, 1000);
+  const handleCopy =  () => {
+    navigator.clipboard.writeText('cristaldofiorela@gmail.com');
   }
 
   return (
     <footer>
-      <section id="contact-container">
-        <div className='footer-action-box'>
-          <h2>Te gusta mi trabajo?</h2>
-          <h3>Conectemos!</h3>
+      <section className='flex flex-col gap-5 items-center my-10 cursor-pointer' onClick={handleCopy}title='click para copiar'>
+        <div className="flex flex-col justify-center items-center">
+          <h2 className="font-family-heading text-2xl md:text-5xl">Te gusta mi trabajo?</h2>
+          <h3 className="text-xl md:text-3xl text-neutral-300">Conectemos!</h3>
         </div>
-        <div id='mail-box'>
-          <a href="mailto:cristaldofiorela@gmail.com">cristaldofiorela@gmail.com</a>
-          {/* <CopyToClipboard 
-            text={'cristaldofiorela@gmail.com'}
-            onCopy={copied}
-          >
-            <button title='copiar'>
-              {copy ? 
-                <Icon className='icon-copy' icon="tabler:copy-check" width="2rem" height="2rem" />              
-                :
-                <Icon className='icon-copy' icon="lucide:copy-plus" width="2rem" height="2rem" />
-              }
-            </button>
-          </CopyToClipboard> */}
+
+        <div className='flex gap-3 items-center w-fit rounded-full px-5 py-2 bg-neutral-800/70 border-pink/60 hover:border-pink border-4 border-dashed font-extrabold text-neutral-300 hover:text-neutral-100 hover:bg-neutral-800'>
+          <span>cristaldofiorela@gmail.com</span>
+          <button title='copiar correo' className='cursor-pointer p-2 transition bg-pink rounded-full'>
+            <Icon icon="streamline-flex:copy-2-solid" className='text-neutral-800'/>
+          </button>
         </div>
       </section>
 

@@ -21,8 +21,6 @@
 }
 
 .boxGlow {
-  box-shadow: 
-    0 10px 25px color-mix(in srgb, var(--color-purple) 30%, transparent), 
-    0 10px 25px color-mix(in srgb, var(--color-pink) 30%, transparent), 
-    0 0 30px color-mix(in srgb, var(--color-yellow) 30%, transparent);
+  -webkit-box-shadow: 12px -5px 15px 5px var(--color-purple), 12px 10px 15px 7px var(--color-pink), -10px -7px 27px 1px var(--color-yellow), 5px 5px 13px 5px rgba(0,0,0,0); 
+  box-shadow: 12px -5px 15px 5px var(--color-purple), 12px 10px 15px 7px var(--color-pink), -10px -7px 27px 1px var(--color-yellow), 5px 5px 13px 5px rgba(0,0,0,0);
 }
