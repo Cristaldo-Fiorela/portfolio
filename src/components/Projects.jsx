@@ -11,7 +11,19 @@ const Projects = () => {
         <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" />
       </h2>
       <div className='projects-container'>
-        <ProjectCard />
+        {DB.map( project => (
+          <ProjectCard 
+            id={project.id}
+            name={project.name}
+            image={project.image}
+            description={project.description}
+            tags={project.tech}
+            github={project.github}
+
+          />
+        ))
+
+        }
         {/* { DB.map(project => (
           <div 
             className="project-card"
