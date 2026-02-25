@@ -3,10 +3,10 @@ import { Icon } from '@iconify/react';
 const About = () => {
   return (
     <section className='my-10 md:w-2/3 self-center flex flex-col items-center gap-5'>
-      <div className='font-family-heading flex gap-2 text-2xl items-center justify-center bg-pink/20 w-fit px-3 py-1'>
-      <h2 className='text-pink'>
+      <div className='font-family-heading flex gap-2 text-2xl items-center justify-center'>
+      <h2>
         Sobre Mi</h2>
-        <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" className='text-pink' />
+        <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" />
       </div>
 
       <div className='bg-neutral-800/60 p-6 rounded-2xl border-2 border-neutral-700 '>
