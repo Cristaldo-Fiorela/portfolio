@@ -5,7 +5,7 @@ import Skill from './Skill';
 const Skills = () => {
 
   return (
-    <section id="skills" className='my-10 md:w-4/5 self-center flex flex-col gap-3'>
+    <section id="skills" className='my-10 md:w-4/5 self-center flex flex-col gap-5'>
       <div className='font-family-heading flex gap-2 text-2xl items-center justify-center'>
         <h2 className="">Habilidades</h2>
         <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" />
