@@ -7,8 +7,8 @@ const Footer = () => {
   }
 
   return (
-    <footer>
-      <section className='flex flex-col gap-5 items-center my-10 cursor-pointer' onClick={handleCopy}title='click para copiar'>
+    <footer className='my-10'>
+      <section className='flex flex-col gap-5 items-center cursor-pointer' onClick={handleCopy}title='click para copiar'>
         <div className="flex flex-col justify-center items-center">
           <h2 className="font-family-heading text-2xl md:text-5xl">Te gusta mi trabajo?</h2>
           <h3 className="text-xl md:text-3xl text-neutral-300">Conectemos!</h3>
@@ -22,12 +22,12 @@ const Footer = () => {
         </div>
       </section>
 
-      <div id="social-container">
-        <a href="https://www.linkedin.com/in/fiorela-cristaldo/" target="_blank" className='yellow-hl' rel='noreferrer'>
-          <Icon className='icon-social' icon="ri:linkedin-fill" width="2rem" height="2rem" color='#1A1918' />
+      <div className='flex gap-5 items-center justify-center mt-5'>
+        <a title='linkedin' href="https://www.linkedin.com/in/fiorela-cristaldo/" target="_blank" className='text-purple' rel='noreferrer'>
+          <Icon className='icon-social' icon="ri:linkedin-fill" width="2rem" height="2rem" />
         </a>
-        <a href="https://github.com/Cristaldo-Fiorela" target="_blank" className='pink-hl' rel='noreferrer'>
-          <Icon className='icon-social' icon="bi:github" width="2rem" height="2rem" color='#1A1918' />
+        <a title='github' href="https://github.com/Cristaldo-Fiorela" target="_blank" className='text-yellow' rel='noreferrer'>
+          <Icon className='icon-social' icon="bi:github" width="2rem" height="2rem"/>
         </a>
       </div>
     </footer>
