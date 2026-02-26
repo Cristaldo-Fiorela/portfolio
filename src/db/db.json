@@ -1,26 +1,26 @@
 [
   {
-    "image": "/images/project-mockup-mytinerary.png",
-    "name": "My Tinerary",
-    "tech": ["react", "javascript", "blog"],
-    "github": "",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores sapiente neque ad eveniet eius blanditiis, modi vero optio quam in molestiae alias quod beatae",
+    "image": "/src/assets/image/kharon_mockup.gif",
+    "name": "Kharon Mobile Banco App",
+    "tech": ["java", "android", "mvc", "figma"],
+    "github": "https://github.com/Cristaldo-Fiorela/kharon_mobile",
+    "description": "App bancaria simulada para Android. Desarrollada desde boceto en papel hasta implementación con arquitectura MVC, pasando por diseño en Figma y modelado de entidades.",
     "id": 1
   },
   {
-    "image": "/images/project-mockup-gea.png",
-    "name": "Gea Store",
-    "tech": ["react", "javascript", "ecommerce"],
-    "github": "",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores sapiente neque ad eveniet eius blanditiis, modi vero optio quam in molestiae alias quod beatae",
+    "image": "/src/assets/image/cafe_mockup.gif",
+    "name": "Panel Café",
+    "tech": ["node.js", "express", "mysql", "javascript", "html", "css"],
+    "github": "https://github.com/Cristaldo-Fiorela/panel_cafe_GPI_2A",
+    "description": "Sistema de gestión para cafetería con CRUD completo y control de roles de usuario. Permite administrar productos, pedidos y accesos desde un panel de administración.",
     "id": 2
   },
   {
-    "image": "/images/project-mockup-felino.png",
-    "name": "Felino Warriors",
-    "tech": ["react", "tailwindcss", "blog"],
-    "github": "",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores sapiente neque ad eveniet eius blanditiis, modi vero optio quam in molestiae alias quod beatae",
+    "image": "/src/assets/image/crud_mockup.gif",
+    "name": "Panel de Administración InnovaTech",
+    "tech": ["node.js", "express", "mysql", "javascript", "html", "css"],
+    "github": "https://github.com/Cristaldo-Fiorela/GPI_2A_CRD",
+    "description": "Módulo de administración de una app web colaborativa. Incluye CRUD de integrantes, gestión de mensajes de contacto y acceso restringido por roles. Desarrollado en equipo con arquitectura REST API.",
     "id": 3
   }
 ]
