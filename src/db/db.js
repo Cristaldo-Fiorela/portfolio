@@ -1,6 +1,11 @@
-[
+import kharonImg from '/src/assets/image/kharon_mockup.gif'
+import cafeImg from '/src/assets/image/cafe_mockup.gif'
+import crudImg from '/src/assets/image/crud_mockup.gif'
+
+
+const projects = [
   {
-    "image": "/src/assets/image/kharon_mockup.gif",
+    "image": kharonImg,
     "name": "Kharon Mobile Banco App",
     "tech": ["java", "android", "mvc", "figma"],
     "github": "https://github.com/Cristaldo-Fiorela/kharon_mobile",
@@ -8,7 +13,7 @@
     "id": 1
   },
   {
-    "image": "/src/assets/image/cafe_mockup.gif",
+    "image": cafeImg,
     "name": "Panel Café",
     "tech": ["node.js", "express", "mysql", "javascript", "html", "css"],
     "github": "https://github.com/Cristaldo-Fiorela/panel_cafe_GPI_2A",
@@ -16,7 +21,7 @@
     "id": 2
   },
   {
-    "image": "/src/assets/image/crud_mockup.gif",
+    "image": crudImg,
     "name": "Panel de Administración InnovaTech",
     "tech": ["node.js", "express", "mysql", "javascript", "html", "css"],
     "github": "https://github.com/Cristaldo-Fiorela/GPI_2A_CRD",
@@ -24,3 +29,5 @@
     "id": 3
   }
 ]
+
+export default projects;

@@ -1,6 +1,6 @@
 import { Icon } from '@iconify/react';
 
-import DB from '../db/db.json';
+import DB from '../db/db.js';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
