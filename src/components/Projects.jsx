@@ -1,6 +1,6 @@
 import { Icon } from '@iconify/react';
 
-import DB from '../db/db.js';
+import { projects } from '../db/db.js';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -11,8 +11,9 @@ const Projects = () => {
         <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" />
       </div>
       <div className='flex flex-col gap-5'>
-        {DB.map( project => (
+        {projects?.map( project => (
           <ProjectCard 
+            key={project.id}
             id={project.id}
             name={project.name}
             image={project.image}

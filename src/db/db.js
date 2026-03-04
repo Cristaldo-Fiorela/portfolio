@@ -30,4 +30,26 @@ const projects = [
   }
 ]
 
-export default projects;
+const certifications = [
+  {
+    id: 1,
+    icon: "material-symbols:language",
+    date: "dic 2015",
+    title: "Examination for the Certificate of Competency in English",
+    certificationProvider: "University of Michigan",
+    link: "https://drive.google.com/file/d/1s_b-DhGGkDslZpQIIIBFC341iE8OcVzT/view"
+  },
+  {
+    id: 2,
+    icon: "material-symbols:language",
+    date: "abr 2023",
+    title: "EF SET English Certificate 66/100 (C1 Advanced)",
+    certificationProvider: "EF SET",
+    link: "https://cert.efset.org/N7W5pV"
+  },
+];
+
+export  {
+  projects,
+  certifications
+};
