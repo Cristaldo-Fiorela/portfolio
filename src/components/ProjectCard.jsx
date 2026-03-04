@@ -1,11 +1,6 @@
 import { Icon } from "@iconify/react"
 import Pill from "./Pill"
-
-const pillStyles = [
-  { bgColor: 'bg-purple/10', textColor: 'text-purple' },
-  { bgColor: 'bg-pink/10', textColor: 'text-pink' },
-  { bgColor: 'bg-yellow/10', textColor: 'text-yellow' },
-]
+import { baseColors } from "../utils/utils"
 
 const ProjectCard = ({id, name, image, description, tags, github}) => {
   return (
@@ -14,7 +9,7 @@ const ProjectCard = ({id, name, image, description, tags, github}) => {
       <article className="p-5 flex flex-col gap-5 md:col-span-1 justify-center">
         <div className="flex flex-wrap gap-2">
           {tags?.map( (tag, i) => {
-            const style = pillStyles[i % pillStyles.length]
+            const style = baseColors[i % baseColors.length]
             return (
               <Pill key={tag} bgColor={style.bgColor} textColor={style.textColor}>
                 <p className="text-sm">{tag}</p>
