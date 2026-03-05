@@ -1,5 +1,5 @@
 import { Icon } from '@iconify/react';
-import portrait from '/src/assets/image/portrait.JPG';
+import portrait from '/src/assets/image/portrait.png';
 import Pill from './Pill';
 
 const Welcome = () => {
