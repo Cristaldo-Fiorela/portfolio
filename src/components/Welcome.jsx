@@ -1,12 +1,10 @@
-import { Icon } from '@iconify/react';
-import portrait from '/src/assets/image/portrait.png';
 import { me } from '../db/db.js';
 import { cvSpanish } from '../db/links.js';
 
 const Welcome = () => {
   return (
-    <div className='md:w-2xl self-center'>
-      <section id='welcome' className='flex flex-col justify-center items-start gap-1.5 md:gap-4 '>
+    <div className='md:w-2xl self-center min-h-screen flex items-center'>
+      <section id='welcome' className='flex flex-col justify-center items-start gap-1.5 md:gap-10'>
 
         <small className='flex gap-1.5 items-center uppercase text-pink tracking-wider'>
           <span className="relative flex size-1.5 leading-loose tracking-tight">
@@ -16,10 +14,13 @@ const Welcome = () => {
           {me.available ? "Disponible" : "No disponible"} - {me.ubication}
         </small>
 
-        <h1 className='font-family-heading text-2xl md:text-6xl flex flex-col flex-wrap tracking-tight text-neutral-100'>{me.name}</h1>
-        <h2 className='text-2xl font-bold bg-linear-to-r from-purple via-pink to-yellow bg-clip-text text-transparent'>
-          {me.job}
-        </h2>
+        <div>
+          <h1 className='font-family-heading text-2xl md:text-6xl flex flex-col flex-wrap tracking-tight text-neutral-100'>{me.name}</h1>
+          <h2 className='text-2xl font-bold bg-linear-to-r from-purple via-pink to-yellow bg-clip-text text-transparent'>
+            {me.job}
+          </h2>
+        </div>
+
 
         <p>{me.about.spanish}</p>
         <div className='flex gap-4 flex-wrap'>

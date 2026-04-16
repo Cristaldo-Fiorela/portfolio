@@ -1,5 +1,5 @@
-import About from './components/About';
 import Certifications from './components/Certifications';
+import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Projects from './components/Projects';
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <div className="flex-1 max-w-5xl mx-auto px-4 w-full flex flex-col gap-10">
         <Welcome />
-        <About />
+        <Experience />
         <Skills />
         <Projects />
         <Certifications />
