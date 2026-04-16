@@ -7,15 +7,16 @@ import Skills from './components/Skills';
 import Welcome from './components/Welcome';
 
 function App() {
-
   return (
-    <div className='max-w-5xl mx-auto px-4 flex flex-col gap-10'>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <Welcome />
-      <About />
-      <Skills />
-      <Projects/>
-      <Certifications />
+      <div className="flex-1 max-w-5xl mx-auto px-4 w-full flex flex-col gap-10">
+        <Welcome />
+        <About />
+        <Skills />
+        <Projects />
+        <Certifications />
+      </div>
       <Footer />
     </div>
   )

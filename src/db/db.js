@@ -10,8 +10,8 @@ const me = {
   "ubication": "Misiones, Argentina",
   "mail": "cristaldofiorela@gmail.com",
   "about": {
-    "ingles": "",
-    "espaniol": "Me apasiona pensar los sistemas antes de escribir una línea: modelar la base de datos, diseñar la arquitectura, entender el problema de raíz. Desarrolladora Fullstack con +2 años de experiencia, stack moderno (React, Next.js, Node.js, Java) y una curiosidad que no se apaga. Autodidacta por naturaleza, pragmática en la ejecución. Inglés C1"
+    "english": "",
+    "spanish": "Desarrollo software pensando en el sistema completo y en quien lo usa: modelado sólido, interfaces atractivas y código limpio. Formación en análisis de sistemas, actualmente especializándome en ciberseguridad."
   },
   "skills": [
     {

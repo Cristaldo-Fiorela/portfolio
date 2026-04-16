@@ -1,28 +1,36 @@
 @import "tailwindcss";
 
 @theme {
-  --color-pink: #F1A0FF;
-  --color-dark-pink: #cc41e4;
-  --color-purple: #717EFF;
-  --color-dark-purple: #5060ff;
-  --color-yellow: #F9DB69;
+    --color-pink: #f1a0ff;
+    --color-dark-pink: #cc41e4;
+    --color-purple: #717eff;
+    --color-dark-purple: #5060ff;
+    --color-yellow: #f9db69;
 
-  --font-family-body: "Space Grotesk", sans-serif;
-  --font-family-heading: "Dela Gothic One", sans-serif;
+    --font-family-body: "Syne", sans-serif;
+    --font-family-heading: "Dela Gothic One", sans-serif;
 }
 
 @layer base {
-  body {
-    @apply bg-neutral-900 text-neutral-100;
-    font-family: var(--font-family-body);
-    background-image: radial-gradient(circle, #404040 1px, transparent 1px);
-    background-size: 24px 24px;
-  }
+    body {
+        @apply bg-neutral-950 text-neutral-400;
+        font-family: var(--font-family-body);
+        background-image: radial-gradient(circle, #272727 1px, transparent 1px);
+        background-size: 24px 24px;
+    }
 }
 
 .boxGlow {
-  -webkit-box-shadow: 12px -5px 15px 5px var(--color-purple), 12px 10px 15px 7px var(--color-pink), -10px -7px 27px 1px var(--color-yellow), 5px 5px 13px 5px rgba(0,0,0,0); 
-  box-shadow: 12px -5px 15px 5px var(--color-purple), 12px 10px 15px 7px var(--color-pink), -10px -7px 27px 1px var(--color-yellow), 5px 5px 13px 5px rgba(0,0,0,0);
+    -webkit-box-shadow:
+        12px -5px 15px 5px var(--color-purple),
+        12px 10px 15px 7px var(--color-pink),
+        -10px -7px 27px 1px var(--color-yellow),
+        5px 5px 13px 5px rgba(0, 0, 0, 0);
+    box-shadow:
+        12px -5px 15px 5px var(--color-purple),
+        12px 10px 15px 7px var(--color-pink),
+        -10px -7px 27px 1px var(--color-yellow),
+        5px 5px 13px 5px rgba(0, 0, 0, 0);
 }
 
 /* 
