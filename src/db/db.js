@@ -2,6 +2,44 @@ import kharonImg from '/src/assets/image/kharon_mockup.gif'
 import cafeImg from '/src/assets/image/cafe_mockup.gif'
 import crudImg from '/src/assets/image/crud_mockup.gif'
 
+const me = {
+  "id": 1,
+  "name": "Fiorela Cristaldo",
+  "job": "Desarrolladora Fullstack",
+  "available": true,
+  "ubication": "Misiones, Argentina",
+  "mail": "cristaldofiorela@gmail.com",
+  "about": {
+    "ingles": "",
+    "espaniol": "Me apasiona pensar los sistemas antes de escribir una línea: modelar la base de datos, diseñar la arquitectura, entender el problema de raíz. Desarrolladora Fullstack con +2 años de experiencia, stack moderno (React, Next.js, Node.js, Java) y una curiosidad que no se apaga. Autodidacta por naturaleza, pragmática en la ejecución. Inglés C1"
+  },
+  "skills": [
+    {
+      "front": [
+        { "id": 1, "name": "HTML", "icon": "skill-icons:html" },
+        { "id": 2, "name": "CSS", "icon": "skill-icons:css" },
+        { "id": 3, "name": "JavaScript", "icon": "skill-icons:javascript" },
+        { "id": 4, "name": "TypeScript", "icon": "skill-icons:typescript" },
+        { "id": 5, "name": "React.js", "icon": "logos:react" },
+        { "id": 6, "name": "Tailwind", "icon": "devicon:tailwindcss" },
+        { "id": 7, "name": "MUI", "icon": "logos:material-ui" }
+      ],
+      "back": [
+        { "id": 1, "name": "SQL", "icon": "logos:mysql" },
+        { "id": 2, "name": "NoSQL", "icon": "vscode-icons:file-type-sql" },
+        { "id": 3, "name": "Java", "icon": "devicon:java" },
+        { "id": 4, "name": "Node.js", "icon": "devicon:nodejs" },
+        { "id": 5, "name": "MongoDB", "icon": "vscode-icons:file-type-mongo" }
+      ],
+      "tools": [
+        { "id": 1, "name": "Git", "icon": "devicon:git" },
+        { "id": 2, "name": "GitHub", "icon": "fluent-mdl2:git-hub-logo" },
+        { "id": 3, "name": "Patrones de diseño", "icon": "eos-icons:patterns" },
+        { "id": 4, "name": "Arquitectura", "icon": "carbon:ibm-global-storage-architecture" }
+      ]
+    }
+  ]
+}
 
 const projects = [
   {
@@ -49,7 +87,8 @@ const certifications = [
   },
 ];
 
-export  {
+export {
   projects,
-  certifications
+  certifications,
+  me
 };
