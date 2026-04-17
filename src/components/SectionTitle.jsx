@@ -5,7 +5,7 @@ const SectionTitle = ({
   color = ""
 }) => {
   return (
-    <div>
+    <div className="w-full">
       <h2 className="flex text-4xl gap-2 font-family-heading items-center text-neutral-100">
         <Icon icon="pixelarticons:sparkles" width="35" height="35" color={color} />
         {title}
