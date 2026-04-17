@@ -13,6 +13,35 @@ const me = {
     "english": "",
     "spanish": "Desarrollo software pensando en el sistema completo y en quien lo usa: modelado sólido, interfaces atractivas y código limpio. Formación en análisis de sistemas, actualmente especializándome en ciberseguridad."
   },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Ingenia",
+      "role": "Desarrolladora FrontEnd Junior",
+      "period": { "from": "2024-07", "to": "2025-02" },
+      "highlights": [
+        "Desarrollé interfaces responsive para sistema de gestión logística portuaria basadas en diseños Figma",
+        "Implementé Clean Architecture mejorando la mantenibilidad del código en 40%",
+        "Trabajé con metodología ágil Kanban, participando en code reviews y deployments iterativos",
+        "Integré componentes con APIs REST para visualización de datos en tiempo real",
+        "Gestioné documentación técnica de endpoints API REST, implementando sistema de tracking CRUD para control de funcionalidades y detección de issues",
+        "Colaboré con equipo backend identificando endpoints con fallos y validando integración frontend-backend"
+      ],
+      "stack": ["React", "TypeScript", "Next.js", "Material-UI"]
+    },
+    {
+      "id": 2,
+      "company": "Argentina Programa 4.0 + MindHub",
+      "role": "Mentor FrontEnd Junior",
+      "period": { "from": "2022-11", "to": "2023-09" },
+      "highlights": [
+        "Diseñé y dicté +10 clases de JavaScript, React y Git para 30+ estudiantes",
+        "Logré 80% de tasa de finalización mediante seguimiento personalizado",
+        "Revisé código y brindé feedback técnico en proyectos frontend"
+      ],
+      "stack": ["JavaScript", "React", "Git"]
+    }
+  ],
   "skills": [
     {
       "front": [
