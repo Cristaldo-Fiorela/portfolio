@@ -2,27 +2,28 @@ import SectionTitle from "./SectionTitle"
 import { me } from "../db/db";
 
 const Experience = () => {
+  const { experience } = me;
   return (
     <div className="bg-stone-950/70 h-screen py-5">
-      <section id="experience" className=" scroll-mt-15 max-w-5xl px-4 mx-auto">
+      <section id="experience" className=" scroll-mt-15 max-w-5xl px-4 mx-auto  flex flex-col gap-10">
         <SectionTitle title="Experiencia" />
 
-        <div>
-          <div>
+        {experience.map((work) => (
+          <div className="bg-neutral-800 border border-neutral-900 rounded p-5" key={work.id}>
             <div>
-              <h3>TITULO</h3>
-              <span>23 septiembre</span>
+              <div className="grid grid-cols-3">
+                <h3 className="col-span-2 text-neutral-200 text-xl font-family-heading">{work.role}</h3>
+                <span className="col-span-1 text-end">{work.period.from} - {work.period.to}</span>
+              </div>
+              <h6 className="bg-linear-to-r from-pink to-yellow bg-clip-text text-transparent text-sm font-bold">{work.company}</h6>
             </div>
-            <h6>SUBTITULO</h6>
+            <ul>
+              {work.highlights.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
           </div>
-          <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At recusandae deserunt in, totam quasi ullam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At recusandae deserunt in, totam quasi ullam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At recusandae deserunt in, totam quasi ullam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At recusandae deserunt in, totam quasi ullam.</p>
-          </div>
-
-        </div>
+        ))}
 
       </section>
     </div>
