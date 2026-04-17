@@ -18,7 +18,7 @@ const me = {
       "id": 1,
       "company": "Ingenia",
       "role": "Desarrolladora FrontEnd Junior",
-      "period": { "from": "2024-07", "to": "2025-02" },
+      "period": { "from": "Jul 2024", "to": "Feb 2025" },
       "highlights": [
         "Desarrollé interfaces responsive para sistema de gestión logística portuaria basadas en diseños Figma",
         "Implementé Clean Architecture mejorando la mantenibilidad del código en 40%",
@@ -33,7 +33,7 @@ const me = {
       "id": 2,
       "company": "Argentina Programa 4.0 + MindHub",
       "role": "Mentor FrontEnd Junior",
-      "period": { "from": "2022-11", "to": "2023-09" },
+      "period": { "from": "Nov 2022", "to": "Sep 2023" },
       "highlights": [
         "Diseñé y dicté +10 clases de JavaScript, React y Git para 30+ estudiantes",
         "Logré 80% de tasa de finalización mediante seguimiento personalizado",
