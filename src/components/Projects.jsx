@@ -2,14 +2,12 @@ import { Icon } from '@iconify/react';
 
 import { projects } from '../db/db.js';
 import ProjectCard from './ProjectCard';
+import SectionTitle from './SectionTitle.jsx';
 
 const Projects = () => {
   return (
-    <section id="projects" className='flex flex-col gap-5 scroll-mt-24'>
-      <div className='font-family-heading flex gap-2 text-2xl items-center justify-center'>
-        <h2 className="">Proyectos</h2>
-        <Icon icon="akar-icons:sparkles" width="3rem" height="3rem" />
-      </div>
+    <section id="projects" className='flex flex-col gap-5 scroll-mt-15 max-w-5xl px-4 mx-auto'>
+      <SectionTitle title="Proyectos" />
       <div className='flex flex-col gap-5'>
         {projects?.map(project => (
           <ProjectCard

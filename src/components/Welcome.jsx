@@ -3,8 +3,8 @@ import { cvSpanish } from '../db/links.js';
 
 const Welcome = () => {
   return (
-    <div className='md:w-2xl self-center min-h-screen flex items-center'>
-      <section id='welcome' className='flex flex-col justify-center items-start gap-1.5 md:gap-10'>
+    <div className='min-h-screen flex justify-center'>
+      <section id='welcome' className='flex flex-col justify-center items-start gap-1.5 md:gap-10 md:w-2xl'>
 
         <small className='flex gap-1.5 items-center uppercase text-pink tracking-wider'>
           <span className="relative flex size-1.5 leading-loose tracking-tight">
