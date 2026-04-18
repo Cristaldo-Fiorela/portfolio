@@ -6,7 +6,7 @@ import SectionTitle from './SectionTitle';
 const Skills = () => {
 
   return (
-    <div className='min-h-screen'>
+    <div className='min-h-fit'>
       <section id="skills" className='my-10 flex flex-col gap-10 scroll-mt-15 max-w-5xl px-4 mx-auto items-center w-full'>
         <SectionTitle title="Habilidades" />
 
