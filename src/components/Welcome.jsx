@@ -29,7 +29,7 @@ const Welcome = () => {
               href="https://mail.google.com/mail/?view=cm&to=cristaldofiorela@gmail.com&su=Hola%20Fiorela%20—%20Vi%20tu%20portfolio&body=Hola%20Fiorela%2C%20vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20contactarte."
               target="_blank"
               rel="noopener noreferrer"
-              className="relative z-50 transition-colors duration-300"
+              className="transition-colors duration-300"
             >
               Contactar ↗
             </a>
@@ -39,7 +39,7 @@ const Welcome = () => {
               href={cvSpanish}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative z-50 transition-colors duration-300"
+              className="transition-colors duration-300"
             >
               Ver CV ↗
             </a>
@@ -47,7 +47,7 @@ const Welcome = () => {
           <button className='border px-3 py-2 rounded border-neutral-700 hover:border-pink hover:bg-pink/10 font-bold cursor-pointer hover:text-white'>
             <a
               href="#projects"
-              className="relative z-50 transition-colors duration-300"
+              className="transition-colors duration-300"
             >
               Ver proyectos ↓
             </a>

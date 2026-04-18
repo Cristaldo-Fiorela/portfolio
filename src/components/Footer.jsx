@@ -19,7 +19,7 @@ const Footer = () => {
               href="https://mail.google.com/mail/?view=cm&to=cristaldofiorela@gmail.com&su=Hola%20Fiorela%20—%20Vi%20tu%20portfolio&body=Hola%20Fiorela%2C%20vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20contactarte."
               target="_blank"
               rel="noopener noreferrer"
-              className="relative z-50 transition-colors duration-300"
+              className="transition-colors duration-300"
               title='correo'
             >
               Enviar un correo ↗
