@@ -1,10 +1,11 @@
 import SectionTitle from "./SectionTitle"
 import { me } from "../db/db";
+import { Icon } from "@iconify/react";
 
 const Experience = () => {
   const { experience } = me;
   return (
-    <div className="bg-stone-950/70 min-h-screen py-5">
+    <div className="bg-stone-950/90 min-h-fit py-5 border-y border-stone-800">
       <section id="experience" className=" scroll-mt-15 max-w-5xl px-4 mx-auto  flex flex-col gap-10">
         <SectionTitle title="Experiencia" />
 
@@ -17,9 +18,9 @@ const Experience = () => {
               </div>
               <h6 className="bg-linear-to-r from-pink to-yellow bg-clip-text text-transparent  font-bold">{work.company}</h6>
             </div>
-            <ul className="flex flex-col gap-0.5 list-disc list-inside ">
+            <ul className="flex flex-col gap-0.5">
               {work.highlights.map((item, i) => (
-                <li className="list-item" key={i}>{item}</li>
+                <li key={i}><span className="text-neutral-400/40">-</span> {item}</li>
               ))}
             </ul>
           </div>
