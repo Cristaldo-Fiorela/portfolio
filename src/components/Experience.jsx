@@ -6,7 +6,7 @@ const Experience = () => {
   const { experience } = me;
   return (
     <div className="bg-stone-950/90 min-h-fit py-5 border-y border-stone-800">
-      <section id="experience" className=" scroll-mt-15 max-w-5xl px-4 mx-auto  flex flex-col gap-10">
+      <section id="experience" className=" scroll-mt-15 max-w-5xl px-4 mx-auto flex flex-col gap-10">
         <SectionTitle title="Experiencia" />
 
         {experience.map((work) => (
