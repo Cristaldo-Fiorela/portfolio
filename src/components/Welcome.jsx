@@ -4,7 +4,7 @@ import { cvSpanish } from '../db/links.js';
 const Welcome = () => {
   return (
     <div className='min-h-screen flex justify-center px-4'>
-      <section id='welcome' className='flex flex-col justify-center items-start gap-1.5 md:gap-10 md:w-2xl'>
+      <section id='welcome' className='flex flex-col justify-center items-start gap-5 md:gap-10 md:w-2xl'>
 
         <small className='flex gap-1.5 items-center uppercase text-pink tracking-wider'>
           <span className="relative flex size-1.5 leading-loose tracking-tight">
@@ -15,8 +15,8 @@ const Welcome = () => {
         </small>
 
         <div>
-          <h1 className='font-family-heading text-2xl md:text-6xl flex flex-col flex-wrap tracking-tight text-neutral-100'>{me.name}</h1>
-          <h2 className='text-2xl font-bold bg-linear-to-r from-purple via-pink to-yellow bg-clip-text text-transparent'>
+          <h1 className='font-family-heading text-6xl 2xl:text-8xl flex flex-col flex-wrap tracking-tight text-neutral-100'>{me.name}</h1>
+          <h2 className='text-2xl 2xl:text-4xl font-bold bg-linear-to-r from-purple via-pink to-yellow bg-clip-text text-transparent'>
             {me.job}
           </h2>
         </div>

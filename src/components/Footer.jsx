@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className='mt-10 scroll-mt-15 bg-stone-950/90 min-h-fit py-10 border-y border-stone-800' id='contact'>
       <section className='flex flex-col gap-8 scroll-mt-15 max-w-5xl px-4 mx-auto'>
         <div className="flex flex-col justify-center gap-3">
-          <h2 className="font-family-heading text-2xl md:text-5xl text-neutral-200">Te gusta mi trabajo?</h2>
-          <h3 className="text-xl md:text-3xl flex gap-2">
+          <h2 className="font-family-heading text-4xl md:text-6xl text-neutral-200">Te gusta mi trabajo?</h2>
+          <h3 className="text-2xl md:text-4xl flex gap-2 font-bold bg-linear-to-r from-purple via-pink to-yellow bg-clip-text text-transparent">
             Conectemos!
-            <Icon icon="pixelarticons:sparkles" width="35" height="35" />
+            <Icon icon="pixelarticons:sparkles" />
           </h3>
         </div>
 
