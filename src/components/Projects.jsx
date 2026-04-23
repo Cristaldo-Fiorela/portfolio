@@ -6,7 +6,7 @@ import SectionTitle from './SectionTitle.jsx';
 
 const Projects = () => {
   return (
-    <section id="projects" className='flex flex-col gap-5 scroll-mt-15 max-w-5xl px-4 mx-auto'>
+    <section id="projects" className='flex flex-col gap-10 scroll-mt-15 max-w-5xl px-4 mx-auto'>
       <SectionTitle title="Proyectos" />
       <div className='flex flex-col gap-5'>
         {projects?.map(project => (

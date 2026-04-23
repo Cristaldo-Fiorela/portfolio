@@ -6,7 +6,7 @@ import SectionTitle from "./SectionTitle.jsx"
 
 const Certifications = () => {
   return (
-    <section id="certifications" className='flex flex-col gap-5 scroll-mt-15 max-w-5xl px-4 mx-auto'>
+    <section id="certifications" className='flex flex-col gap-5 scroll-mt-15 max-w-5xl px-4 mx-auto my-10'>
       <SectionTitle title="Certificaciones" />
       <div className="flex flex-wrap gap-3 md:grid md:grid-cols-3">
         {certifications?.map((certificate, i) => {
