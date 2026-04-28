@@ -1,5 +1,6 @@
 import { me } from '../db/db.js';
 import { cvSpanish } from '../db/links.js';
+import Button from './Button.jsx';
 
 const Welcome = () => {
   return (
@@ -24,7 +25,7 @@ const Welcome = () => {
 
         <p>{me.about.spanish}</p>
         <div className='flex gap-4 flex-wrap'>
-          <button className='border px-3 py-2 rounded border-pink bg-pink/85 hover:bg-pink font-bold text-neutral-950 cursor-pointer'>
+          <Button fill={true}>
             <a
               href="https://mail.google.com/mail/?view=cm&to=cristaldofiorela@gmail.com&su=Hola%20Fiorela%20—%20Vi%20tu%20portfolio&body=Hola%20Fiorela%2C%20vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20contactarte."
               target="_blank"
@@ -33,8 +34,8 @@ const Welcome = () => {
             >
               Contactar ↗
             </a>
-          </button>
-          <button className='border px-3 py-2 rounded border-neutral-700 hover:border-pink hover:bg-pink/10 font-bold cursor-pointer hover:text-white'>
+          </Button>
+          <Button>
             <a
               href={cvSpanish}
               target="_blank"
@@ -43,15 +44,15 @@ const Welcome = () => {
             >
               Ver CV ↗
             </a>
-          </button>
-          <button className='border px-3 py-2 rounded border-neutral-700 hover:border-pink hover:bg-pink/10 font-bold cursor-pointer hover:text-white'>
+          </Button>
+          <Button>
             <a
               href="#projects"
               className="transition-colors duration-300"
             >
               Ver proyectos ↓
             </a>
-          </button>
+          </Button>
         </div>
 
       </section>

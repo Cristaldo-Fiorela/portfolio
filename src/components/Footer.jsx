@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react';
+import Button from './Button';
 
 const Footer = () => {
 
@@ -14,7 +15,7 @@ const Footer = () => {
         </div>
 
         <div className='flex gap-4 flex-wrap'>
-          <button className='border px-3 py-2 rounded border-pink bg-pink/85 hover:bg-pink font-bold text-neutral-950 cursor-pointer'>
+          <Button fill={true}>
             <a
               href="https://mail.google.com/mail/?view=cm&to=cristaldofiorela@gmail.com&su=Hola%20Fiorela%20—%20Vi%20tu%20portfolio&body=Hola%20Fiorela%2C%20vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20contactarte."
               target="_blank"
@@ -24,22 +25,22 @@ const Footer = () => {
             >
               Enviar un correo ↗
             </a>
-          </button>
+          </Button>
 
 
-          <button className='border px-3 py-2 rounded border-neutral-700 hover:border-pink hover:bg-pink/10 font-bold cursor-pointer hover:text-white flex gap-2 items-center'>
+          <Button>
             <Icon className='icon-social' icon="ri:linkedin-fill" width="1rem" height="1rem" />
             <a title='linkedin' href="https://www.linkedin.com/in/fiorela-cristaldo/" target="_blank" rel='noreferrer'>
               Linkedin ↗
             </a>
-          </button>
+          </Button>
 
-          <button className='border px-3 py-2 rounded border-neutral-700 hover:border-pink hover:bg-pink/10 font-bold cursor-pointer hover:text-white flex gap-2 items-center'>
+          <Button>
             <Icon className='icon-social' icon="bi:github" width="1rem" height="1rem" />
             <a title='github' href="https://github.com/Cristaldo-Fiorela" target="_blank" rel='noreferrer'>
               Github ↗
             </a>
-          </button>
+          </Button>
         </div>
       </section>
     </footer>
