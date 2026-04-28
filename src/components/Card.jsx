@@ -17,7 +17,7 @@ const Card = ({
         <small>{date}</small>
       </div>
       <div className="border-b-4 border-neutral-700/40 pb-2">
-        <h4 className="font-family-heading text-neutral-200">{title}</h4>
+        <h6 className="font-family-heading text-neutral-200">{title}</h6>
         <p>{certificationProvider}</p>
       </div >
       <a href="#" target="_blank" rel="noopener noreferrer" className="flex gap-1 items-center text-yellow hover:underline hover:decoration-wavy w-fit">
