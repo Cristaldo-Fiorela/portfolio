@@ -1,4 +1,3 @@
-import { Icon } from "@iconify/react"
 import Card from "./Card"
 import { certifications } from '../db/db.js'
 import { baseColors } from "../utils/utils.js"
@@ -24,7 +23,7 @@ const Certifications = () => {
               textColor={style.textColor}
             />
           )
-        })}
+        }).reverse()}
       </div>
     </section>
   )

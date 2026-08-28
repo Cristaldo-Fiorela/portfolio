@@ -114,6 +114,14 @@ const certifications = [
     certificationProvider: "EF SET",
     link: "https://cert.efset.org/N7W5pV"
   },
+  {
+    id: 3,
+    icon: "ant-design:code-twotone",
+    date: "jun 2026",
+    title: "Google Cybersecurity Professional Certificate",
+    certificationProvider: "Google",
+    link: "https://www.coursera.org/account/accomplishments/specialization/D5BMCN33M7P9"
+  },
 ];
 
 export {
