@@ -20,7 +20,7 @@ const Projects = () => {
             github={project.github}
 
           />
-        ))
+        )).reverse()
         }
       </div>
     </section>
